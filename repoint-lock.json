@@ -1,0 +1,52 @@
+{
+  "libraries": {
+    "vamp-plugin-sdk": {
+      "pin": "62987b6d6a3b"
+    },
+    "svcore": {
+      "pin": "dffc70996f54"
+    },
+    "svgui": {
+      "pin": "c3cc36c014b8"
+    },
+    "svapp": {
+      "pin": "a27a6113fdd7"
+    },
+    "checker": {
+      "pin": "c8c17e51aab0"
+    },
+    "piper": {
+      "pin": "f5a04ffe4d5a0ae01e77018a86a59b48a425e674"
+    },
+    "piper-vamp-cpp": {
+      "pin": "0e3328c6091f59c912e25bc392a7dc75182be1c7"
+    },
+    "dataquay": {
+      "pin": "b82360a98f49"
+    },
+    "bqvec": {
+      "pin": "c2d355c29372"
+    },
+    "bqfft": {
+      "pin": "ff1d1bd48876"
+    },
+    "bqresample": {
+      "pin": "f5dee7d40378"
+    },
+    "bqaudioio": {
+      "pin": "8c4162878ae6"
+    },
+    "bqaudiostream": {
+      "pin": "e3a6c41e042f"
+    },
+    "bqthingfactory": {
+      "pin": "7686116dcdd5"
+    },
+    "sv-dependency-builds": {
+      "pin": "f3731af47c4b"
+    },
+    "icons/scalable": {
+      "pin": "1c8844bfa946"
+    }
+  }
+}
