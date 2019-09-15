@@ -1,10 +1,24 @@
-TEST OF CONFIGURE IF README IS EDITED
-#
+DoJoy-VMPT
+==========
+#### A virtual music power trainer - the way of joy to study music
+
+* Brought to you with the way of Joy: http:://www.dojoy.at
+* Based on Sonic Visualiser: http://sonicvisualiser.org/
+
+Features
+--------
+* Stay in Tune with your music by synchronizing to a vibrating metronome: https://www.soundbrenner.com/
+![Soundbrenner Pulse - Smart Vibrating Metronome](https://www.soundbrenner.com/wp-content/themes/soundbrenner-theme2/images/home/flipped.png)
+
+Planned Features
+----------------
+* Adjust the tempo to a specified BPM value
+* Tune the music to your instrument - not the other way round
 
 
 
-Sonic Visualiser
-================
+DoJoy-VMPT is based on Sonic Visualiser
+=======================================
 
 #### A program for viewing and analysing the contents of music audio files
 
