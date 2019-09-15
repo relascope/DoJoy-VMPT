@@ -1,3 +1,7 @@
+TEST OF CONFIGURE IF README IS EDITED
+#
+
+
 
 Sonic Visualiser
 ================
