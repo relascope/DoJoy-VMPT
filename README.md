@@ -8,7 +8,11 @@ DoJoy-VMPT
 Features
 --------
 * Stay in Tune with your music by synchronizing to a vibrating metronome: https://www.soundbrenner.com/
+* You decide the Peace of Music, and the Vibrating microphone adjusts to the Beat of the Audio File, even RhyThm Changes
 ![Soundbrenner Pulse - Smart Vibrating Metronome](https://www.soundbrenner.com/wp-content/themes/soundbrenner-theme2/images/home/flipped.png)
+
+* At the moment it doesn't work anymore, because there a bugs at the Soundbrenner Company. We will soon fix them, if they hire me. 
+
 
 Planned Features
 ----------------
