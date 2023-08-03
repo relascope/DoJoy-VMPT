@@ -22,6 +22,8 @@
 #include <QPainter>
 #include <iostream>
 
+
+#include <QPainterPath>
 //#define DEBUG_OVERVIEW 1
 
 

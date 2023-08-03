@@ -10,7 +10,7 @@ QMAKE_CXX = g++
 QMAKE_LINK = g++
 
 QMAKE_CFLAGS += -g -O2
-QMAKE_CXXFLAGS += -fpic -Wall -Wextra -Woverloaded-virtual -Wformat-nonliteral -Wformat-security -Winit-self -Wswitch-enum -Wconversion -pipe -g0 -O3 -ffast-math -DNDEBUG -DBUILD_RELEASE -DNO_TIMING -DNO_HIT_COUNTS      -I/usr/include/sord-0 -I/usr/include/serd-0 -I/usr/include/serd-0 -pthread -I/usr/local/include  -pthread  -D_REENTRANT -I/usr/include/raptor2     -I/usr/include/opus 
+QMAKE_CXXFLAGS += -fpic -Wall -Wextra -Woverloaded-virtual -Wformat-nonliteral -Wformat-security -Winit-self -Wswitch-enum -Wconversion -pipe -g0 -O3 -ffast-math -DNDEBUG -DBUILD_RELEASE -DNO_TIMING -DNO_HIT_COUNTS   -I/usr/include/opus   -I/usr/include/sord-0 -I/usr/include/serd-0 -I/usr/include/serd-0   -pthread  -D_REENTRANT -I/usr/include/raptor2     -I/usr/include/opus 
 QMAKE_LFLAGS +=  -O3 -ffast-math
 
 CONFIG += c++14
@@ -20,7 +20,7 @@ linux*:LIBS += -L$$PWD -lbase -lasound -ldl
 macx*:DEFINES += HAVE_COREAUDIO
 macx*:LIBS += -framework CoreAudio -framework CoreMidi -framework AudioUnit -framework AudioToolbox -framework CoreFoundation -framework CoreServices
 
-LIBS +=  -lbz2 -lfftw3 -lfftw3f -lsndfile -lsamplerate -lrubberband -lsord-0 -lserd-0 -lserd-0 -L/usr/local/lib -lcapnp -pthread -lpthread -lkj -pthread -lpthread -llo -lpthread -lportaudio -lasound -lm -lpthread -ljack -lpulse -llrdf -loggz -logg -lfishsound -lvorbis -lvorbisenc -lspeex -lFLAC -lmad -lid3tag -lz -lopusfile -lX11
+LIBS +=  -lbz2 -lfftw3 -lfftw3f -lsndfile -lsamplerate -lrubberband -lsamplerate -lsord-0 -lserd-0 -lserd-0 -lcapnp -lkj -llo -lpthread -lportaudio -lasound -lm -lpthread -ljack -lpulse -pthread -llrdf -loggz -logg -lfishsound -lvorbis -lvorbisenc -lspeex -lFLAC -lmad -lid3tag -lz -lopusfile -lX11
 
 linux*:LIBS -= -ljack
 

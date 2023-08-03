@@ -37,7 +37,7 @@
 
 #include <QProcess>
 #include <QDir>
-#include <QTime>
+#include <QElapsedTimer>
 
 #if defined(_WIN32)
 #define PLUGIN_GLOB "*.dll"
@@ -231,8 +231,8 @@ PluginCandidates::runHelper(vector<string> libraries, string descriptor)
         process.write("\n", 1);
     }
 
-    QTime t;
-    t.start();
+    QElapsedTimer timer;
+    timer.start();
     int timeout = 15000; // ms
 
     const int buflen = 4096;
@@ -253,7 +253,7 @@ PluginCandidates::runHelper(vector<string> libraries, string descriptor)
             // lines, or could be eof)
             done = (process.state() == QProcess::NotRunning);
             if (!done) {
-                if (t.elapsed() > timeout) {
+                if (timer.elapsed() > timeout) {
                     // this is purely an emergency measure
                     log("Timeout: helper took too long, killing it");
                     process.kill();
