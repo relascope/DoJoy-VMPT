@@ -7,12 +7,22 @@ DoJoy-VMPT
 
 Features
 --------
-* Stay in Tune with your music by synchronizing to a vibrating metronome: https://www.soundbrenner.com/
-* You decide the Peace of Music, and the Vibrating microphone adjusts to the Beat of the Audio File, even RhyThm Changes
+* Stay in Tune with your music by synchronizing it via MIDI Clock
+* Tempo changes are detected
+* connect your DAW
+* practice with Soundbrenner Pulse
 ![Soundbrenner Pulse - Smart Vibrating Metronome](https://www.soundbrenner.com/wp-content/themes/soundbrenner-theme2/images/home/flipped.png)
 
-* At the moment it doesn't work anymore, because there a bugs at the Soundbrenner Company. We will soon fix them, if they hire me. 
 
+Feel free to ask for help. 
+
+Usage
+-----
+0. start Jack audio Demon (e.g. via QJackCtl) and make sure 
+1. open audio file
+2. run any plugin that
+3. Ctrl+m run aubio onsets or beatroot beat tracker or any other rythm plugin
+4. You see a new JACK client, which omits the the beats in MIDI
 
 Planned Features
 ----------------
