@@ -1,6 +1,14 @@
-DoJoy-VMPT
-==========
-#### A virtual music power trainer - the way of joy to study music
+DoJoy-VMPT - obsolete!
+======================
+
+### Obsolete
+
+* The MIDI Sync from the Soundbrenner App was buggy from the beginning (much time spent debugging before connection. MIDI Sync was never a priority for Soundbrenner.
+* Sometimes worked - most of the time not.
+* Alternative: Ableton Link, e.g. used with the Smart Tempo feature of Logic Pro, achieves the same (Soundbrenner App, Logic Pro: right-click toolbar -> customise -> sync -> Ableton; reactivate Tempo track)
+
+
+## A virtual music power trainer - the way of joy to study music
 
 * Brought to you with the way of Joy: http:://www.dojoy.at
 * Based on Sonic Visualiser: http://sonicvisualiser.org/
